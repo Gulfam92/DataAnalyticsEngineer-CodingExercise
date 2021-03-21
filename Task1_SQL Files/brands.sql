@@ -16,7 +16,3 @@ WITH
 	name nvarchar(max) '$.name',
 	topBrand char(5) '$.topBrand'
 ) as Dataset
-where barcode <> 'NULL'
-
-
-
