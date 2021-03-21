@@ -3,7 +3,7 @@ Declare @JSON varchar(max)
 SELECT @JSON=BulkColumn
 FROM OPENROWSET (BULK 'F:\Gulfam\FetchRewards\receipts\receiptscleansed.json', SINGLE_CLOB) as j
 
-insert into [dbo].[receipts1] 
+insert into [dbo].[receipts] 
 ([_id],[bonusPointsEarned],[bonusPointsEarnedReason],[createDate], [dateScanned],
 [finishedDate], [modifyDate],[pointsAwardedDate],[pointsEarned],[purchaseDate], [purchasedItemCount],[rewardsReceiptItemListBarcode],
 [rewardsReceiptItemListdescription],[rewardsReceiptItemListfinalPrice],[rewardsReceiptItemListitemPrice],
