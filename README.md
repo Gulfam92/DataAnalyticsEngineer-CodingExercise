@@ -1,4 +1,4 @@
-# FetchRewards-AnalyticsEngineer-CodingExercise
+# DataAnalyticsEngineer-CodingExercise
 
 ### Coding Exercise Requirements
 #### In this exercise you will:
